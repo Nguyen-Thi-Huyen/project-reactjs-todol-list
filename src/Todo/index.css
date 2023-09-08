@@ -1,0 +1,51 @@
+.container-todo {
+  width: 500px;
+  background-color: rgba(202, 199, 199, 0.3);
+  margin: auto;
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 40px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  justify-content: center;
+}
+h1 {
+  text-align: center;
+}
+
+.input-todo {
+  padding: 15px 170px 15px 10px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  outline: none;
+  border: 1px solid rgb(110, 8, 253);
+  border-radius: 3px;
+}
+.btn-add {
+  padding: 15px;
+  border: 1px solid rgb(110, 8, 253);
+  background-color: rgb(110, 8, 253);
+  color: #fff;
+  border-radius: 3px;
+}
+.item-todo {
+  background-color: rgb(208, 202, 200);
+  padding: 15px;
+  width: 410px;
+  margin-left: 30px;
+  margin-top: 10px;
+  display: flex;
+  border-radius: 4px;
+  justify-content: space-between;
+}
+.fa-times {
+  color: red;
+  font-size: 20px;
+}
+.icon-modified {
+  font-size: 20px;
+
+  margin-left: 10px;
+  color: rgb(110, 8, 253);
+}
